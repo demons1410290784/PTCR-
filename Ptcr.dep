@@ -1,0 +1,129 @@
+# Microsoft Developer Studio Generated Dependency File, included by Ptcr.mak
+
+.\CombinDlg.cpp : \
+	".\CombinDlg.h"\
+	".\Ptcr.h"\
+	".\RTSave.h"\
+	
+
+.\Comcfg.cpp : \
+	".\ComCfg.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\Draw.cpp : \
+	".\Draw.h"\
+	".\gridctrl.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\font.cpp : \
+	".\font.h"\
+	
+
+.\gridctrl.cpp : \
+	".\font.h"\
+	".\gridctrl.h"\
+	".\picture.h"\
+	
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\Ptcr.h"\
+	
+
+.\ManCmd1.cpp : \
+	".\ManCmd1.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\NameResi.cpp : \
+	".\Draw.h"\
+	".\gridctrl.h"\
+	".\NameResi.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\PtcrView.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\picture.cpp : \
+	".\picture.h"\
+	
+
+.\Ptcr.cpp : \
+	".\Draw.h"\
+	".\gridctrl.h"\
+	".\MainFrm.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\PtcrView.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\Ptcr.rc : \
+	".\res\Ptcr.ico"\
+	".\res\Ptcr.rc2"\
+	".\res\PtcrDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\PtcrDoc.cpp : \
+	".\CombinDlg.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\PtcrView.cpp : \
+	".\ComCfg.h"\
+	".\Draw.h"\
+	".\gridctrl.h"\
+	".\MainFrm.h"\
+	".\ManCmd1.h"\
+	".\NameResi.h"\
+	".\Ptcr.h"\
+	".\PtcrDoc.h"\
+	".\PtcrView.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	".\SerialPort.h"\
+	
+
+.\RT.cpp : \
+	".\Ptcr.h"\
+	".\RT.h"\
+	".\RTSave.h"\
+	
+
+.\RTSave.cpp : \
+	".\Ptcr.h"\
+	".\RTSave.h"\
+	
+
+"..\ptcrt-w\SerialPort.cpp" : \
+	"..\ptcrt-w\serialport.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Ptcr.rc
+//
+#define HIDC_STATIC                     0x809cffff    // IDD_SETTemp

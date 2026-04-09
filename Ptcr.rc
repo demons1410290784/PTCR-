@@ -1,0 +1,1682 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Ptcr.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Ptcr.ico"
+IDR_PTCRTYPE            ICON    DISCARDABLE     "res\\PtcrDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BMPUNIVERSITY       BITMAP  DISCARDABLE     "res\\university.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&File)"
+    BEGIN
+        MENUITEM "打开(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "保存(&S)",                    ID_FILE_SAVE
+        MENUITEM "另存为...",                   ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "运行...\tCtrl-G",             ID_CMD_GO
+        MENUITEM "停止...\tCtrl-S",             ID_CMD_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "最近文档",                    ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&Edit)"
+    BEGIN
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDIT_COPY
+    END
+    POPUP "查看(&View)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "通道1—10"
+        BEGIN
+            MENUITEM "通道一",                      ID_PLOT0
+            MENUITEM "通道二",                      ID_PLOT1
+            MENUITEM "通道三",                      ID_PLOT2
+            MENUITEM "通道四",                      ID_PLOT3
+            MENUITEM "通道五",                      ID_PLOT4
+            MENUITEM "通道六",                      ID_PLOT5
+            MENUITEM "通道七",                      ID_PLOT6
+            MENUITEM "通道八",                      ID_PLOT7
+            MENUITEM "通道九",                      ID_PLOT8
+            MENUITEM "通道十",                      ID_PLOT9
+        END
+        POPUP "通道11—20"
+        BEGIN
+            MENUITEM "通道十一",                    ID_PLOT10
+            MENUITEM "通道十二",                    ID_PLOT11
+            MENUITEM "通道十三",                    ID_PLOT12
+            MENUITEM "通道十四",                    ID_PLOT13
+            MENUITEM "通道十五",                    ID_PLOT14
+            MENUITEM "通道十六",                    ID_PLOT15
+            MENUITEM "通道十七",                    ID_PLOT16
+            MENUITEM "通道十八",                    ID_PLOT17
+            MENUITEM "通道十九",                    ID_PLOT18
+            MENUITEM "通道二十",                    ID_PLOT19
+        END
+        POPUP "通道21—30"
+        BEGIN
+            MENUITEM "通道二十一",                  ID_PLOT20
+            MENUITEM "通道二十二",                  ID_PLOT21
+            MENUITEM "通道二十三",                  ID_PLOT22
+            MENUITEM "通道二十四",                  ID_PLOT23
+            MENUITEM "通道二十五",                  ID_PLOT24
+            MENUITEM "通道二十六",                  ID_PLOT25
+            MENUITEM "通道二十七",                  ID_PLOT26
+            MENUITEM "通道二十八",                  ID_PLOT27
+            MENUITEM "通道二十九",                  ID_PLOT28
+            MENUITEM "通道三十",                    ID_PLOT29
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "人工强制",                    ID_ManMea
+    END
+    POPUP "设置(&Set)"
+    BEGIN
+        MENUITEM "万用表....",                  ID_SERIALPORT_F45SETTINGS
+        MENUITEM "温控表...",                   ID_SERIALPORT_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "通道电阻...",                 ID_Chan_Set
+        MENUITEM "升温方式设置...",             ID_SetTempStage
+    END
+    POPUP "命令(&Cmd)"
+    BEGIN
+        MENUITEM "万用表命令",                  ID_MANUAL_CMD
+        MENUITEM "温控表命令",                  ID_SR253_CMD
+    END
+    POPUP "窗口(&Windows)"
+    BEGIN
+        MENUITEM "单曲线显示(&S)",              ID_WND_SINGLE
+        MENUITEM "多曲线显示(&M)",              ID_WND_MULTI
+        MENUITEM "数据显示(&D)",                ID_WND_DATA
+        MENUITEM "参数显示(&C)",                ID_WND_REFERENCE
+        MENUITEM "曲线范围设置",                ID_RTSET_RANGE
+        MENUITEM "任意温度阻值",                ID_MENUANYRES
+        MENUITEM "打印数据格式设置",            ID_MENUPRINTDATA
+    END
+    POPUP "工具(&Tool)"
+    BEGIN
+        MENUITEM "RT—>txt",                    ID_TOOL_CONVERT
+        MENUITEM "RT—>xls",                    ID_TOOL_CONVERTEXCEL
+        MENUITEM "合并",                        ID_TOOL_CONBIND
+        MENUITEM "用户设置",                    ID_MENUISETUSER
+        MENUITEM "拟合",                        ID_OPTIMIZE
+    END
+    POPUP "帮助(&Help)"
+    BEGIN
+        MENUITEM "陶瓷PTC曲线(Cptc)",           ID_CeramicPTC
+        MENUITEM "高分子PTC曲线(Pptc)",         ID_PolymerPTC
+        MENUITEM "个性化曲线",                  ID_Pensonnel
+        MENUITEM "测量退出标志",                ID_StopHeat
+        MENUITEM "关于 Ptcr(&A)...",            ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 246, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Ptcr"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,9,61,20,20
+    LTEXT           "Ptcr 3.0 版",IDC_STATIC,15,16,65,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2002-2005",IDC_STATIC,40,74,99,8
+    DEFPUSHBUTTON   "确定",IDOK,178,68,50,14,WS_GROUP
+    LTEXT           "华中科技大学电子科学与技术系     Tel: 013297971898                                联系人：赵俊",
+                    IDC_STATIC,46,27,129,45
+END
+
+IDD_COMBINEDLG DIALOGEX 0, 0, 217, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "合并"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    LTEXT           "第一个文件",IDC_STATIC,7,7,46,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_FILE1_EDIT,60,7,126,12
+    PUSHBUTTON      "...",IDC_FILE1_CMD,191,7,13,12
+    LTEXT           "第二个文件",IDC_STATIC,7,22,46,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_FILE2_EDIT,60,22,126,12
+    PUSHBUTTON      "...",IDC_FILE2_CMD,191,23,13,12
+    LTEXT           "文件一通道",IDC_STATIC,7,40,46,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_FILE1_EDIT2,60,40,147,13,ES_AUTOHSCROLL
+    LTEXT           "文件二通道",IDC_STATIC,7,56,46,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_FILE2_EDIT2,60,56,147,13,ES_AUTOHSCROLL
+    LTEXT           "键入通道号或用逗号或-表示所选范围（如1，3，6-10）",
+                    IDC_STATIC,7,72,199,10,SS_CENTERIMAGE
+    LTEXT           "合并后对应通道",IDC_STATIC,7,84,199,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_FILE3_EDIT2,7,97,199,51,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | NOT 
+                    WS_TABSTOP,WS_EX_LEFTSCROLLBAR
+    PUSHBUTTON      "确定",IDOK,43,151,34,15
+    PUSHBUTTON      "取消",IDCANCEL,143,151,34,15
+END
+
+IDD_COMSETTINGS DIALOGEX 0, 0, 225, 177
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "线路设置"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_SERIALPORTCOMBO,40,19,90,90,CBS_DROPDOWNLIST | 
+                    CBS_OEMCONVERT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_BAUDRATECOMBO,40,34,90,90,CBS_DROPDOWNLIST | 
+                    CBS_OEMCONVERT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_PARITYCOMBO,40,49,90,90,CBS_DROPDOWNLIST | 
+                    CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_DATABITSCOMBO,40,64,90,90,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_STOPBITSCOMBO,40,79,90,90,CBS_DROPDOWNLIST | 
+                    CBS_SORT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_SENDBUFFERCOMBO,40,114,90,90,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    DEFPUSHBUTTON   "确定",IDOK,148,152,21,14
+    PUSHBUTTON      "取消",IDCANCEL,189,152,21,14
+    GROUPBOX        "串行通讯设置",IDC_STATIC,6,5,132,95
+    RTEXT           "波特率",IDC_STATIC,13,36,25,8
+    RTEXT           "校验类",IDC_STATIC,13,51,25,8
+    RTEXT           "停止位",IDC_STATIC,13,81,25,8
+    RTEXT           "数据位",IDC_STATIC,13,66,25,8
+    RTEXT           "串行口",IDC_STATIC,13,21,25,8
+    GROUPBOX        "事件响应",IDC_STATIC,144,5,74,137
+    GROUPBOX        "发送缓冲区大小(Bytes)",IDC_STATIC,7,103,132,25
+    CONTROL         "振铃检测",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,70,48,10
+    CONTROL         "输入中断检测",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,18,58,10
+    CONTROL         "收到字符",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,96,48,10
+    CONTROL         "CTS状态改变",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,31,57,10
+    CONTROL         "DSR状态改变",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,44,56,10
+    CONTROL         "线路错误",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,57,48,10
+    CONTROL         "RLSD状态改变",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,83,60,10
+    CONTROL         "发送完成",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,122,48,10
+    CONTROL         "收到事件字符",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,109,58,10
+    COMBOBOX        IDC_MultiMeter,40,136,90,90,CBS_DROPDOWNLIST | 
+                    CBS_OEMCONVERT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "万用表",IDC_STATIC,13,139,25,8
+    COMBOBOX        IDC_DigitConctollor,40,154,90,90,CBS_DROPDOWNLIST | 
+                    CBS_OEMCONVERT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "温控表",IDC_STATIC,13,158,25,8
+END
+
+IDD_MANUALCMD DIALOG DISCARDABLE  0, 0, 209, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "手工发送命令"
+FONT 12, "System"
+BEGIN
+    EDITTEXT        IDC_CMD_EDIT,25,31,177,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "发送",IDOK,68,79,21,14
+    PUSHBUTTON      "退出",IDCANCEL,120,79,21,14
+    LTEXT           "（前导符、结束符由系统给出）",IDC_STATIC,4,8,113,8
+    LTEXT           "命令",IDC_STATIC,8,32,17,8
+    LTEXT           "结果",IDC_STATIC,8,59,17,8
+    EDITTEXT        IDC_RESULT_EDIT,25,57,177,12,ES_AUTOHSCROLL
+END
+
+IDD_RTSET DIALOG DISCARDABLE  0, 0, 252, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "曲线范围设置"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,123,122,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,122,50,14
+    EDITTEXT        IDC_EDIT2,162,24,40,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,15,26,48,58,CBS_DROPDOWNLIST | CBS_OEMCONVERT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "曲线阻值下限：",IDC_STATIC,13,14,57,8
+    LTEXT           "最高温度：",IDC_STATIC,84,54,41,8
+    LTEXT           "坐标温度间隔：",IDC_STATIC,151,14,57,8
+    COMBOBOX        IDC_COMBO2_MAXTEMP,87,67,48,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MAXRES,87,26,48,57,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "曲线阻值上限：",IDC_STATIC,79,14,57,8
+    LTEXT           "最低温度：",IDC_STATIC,14,54,41,8
+    COMBOBOX        IDC_COMBO_MINTEMP,14,67,48,32,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "实验原始点显示",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,44,72,10
+    CONTROL         "仅显示实验数据点",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,61,76,10
+    CONTROL         "曲线外框",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,152,76,47,10
+    EDITTEXT        IDC_EDIT_EndStopHeat,16,104,90,14,ES_AUTOHSCROLL
+    LTEXT           "结束方式:",IDC_STATIC,14,93,35,8
+    CONTROL         "科学记数",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,194,
+                    103,45,10
+    CONTROL         "指数",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,154,103,32,
+                    10
+    CONTROL         "对数",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,116,103,32,
+                    10
+    GROUPBOX        "曲线电阻坐标形式",IDC_STATIC,112,90,131,27
+END
+
+IDD_AnyTemToRes DIALOG DISCARDABLE  0, 0, 238, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "获得任意温度阻值"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,66,121,37,14
+    PUSHBUTTON      "退出",IDCANCEL,132,121,37,14
+    LTEXT           "通道号：",IDC_STATIC,14,75,32,10
+    LTEXT           "温度：",IDC_STATIC,118,75,25,8
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS,97,73,
+                    9,14
+    EDITTEXT        IDC_CHANNELNUM,57,73,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_TEMINPUT,147,73,40,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "电阻值：",IDC_STATIC,110,31,32,11
+    EDITTEXT        IDC_RESVALUE,147,28,40,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "样品名称:",IDC_STATIC,17,31,35,8
+    EDITTEXT        IDC_SAMPLENAME,57,29,40,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "输出值",IDC_STATIC,7,7,199,50
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 256, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ZWA-B/C R-T特性测试仪"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,215,113,32,14
+    EDITTEXT        IDC_EDITNAME,208,53,45,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITPASSWORD,208,77,45,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_SETUSER DIALOGEX 0, 0, 187, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户设置"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,131,89,38,14
+    PUSHBUTTON      "新增",IDC_BUTTONADDUSER,15,89,43,14
+    PUSHBUTTON      "删除",IDC_BUTTONDELETEUSER,72,89,43,14
+    CTEXT           "用户名",IDC_STATIC,7,1,86,12,0,WS_EX_DLGMODALFRAME
+    CTEXT           "密码",IDC_STATIC,93,1,86,12,0,WS_EX_DLGMODALFRAME
+    LISTBOX         IDC_LIST1,7,12,173,76,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_SETSINGLEUSER DIALOG DISCARDABLE  0, 0, 192, 112
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,43,83,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,122,84,50,14
+    LTEXT           "用户名称:",IDC_STATIC,52,19,35,8
+    LTEXT           "用户密码:",IDC_STATIC,52,51,35,8
+    EDITTEXT        IDC_USERNAME,90,15,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,90,49,48,14,ES_AUTOHSCROLL
+END
+
+IDD_Name_Resis_Setting DIALOGEX 0, 0, 328, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_LEFTSCROLLBAR
+CAPTION "PTCR RT 通道设置、室温阻值"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_N1,27,23,37,12
+    EDITTEXT        IDC_EDIT_R1,66,23,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N2,27,36,37,12
+    EDITTEXT        IDC_EDIT_R2,66,36,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N3,27,49,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R3,66,49,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N4,27,62,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R4,66,62,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N5,27,75,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R5,66,75,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N6,27,88,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R6,66,88,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N7,27,101,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R7,66,101,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N8,27,114,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R8,66,114,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N9,27,127,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R9,66,127,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N10,27,140,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R10,66,140,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_Resi,275,28,42,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "确定",IDOK,243,212,21,14
+    PUSHBUTTON      "退出",IDCANCEL,299,212,21,14
+    GROUPBOX        "通道设置、电阻",IDC_STATIC,2,1,226,224
+    GROUPBOX        "单通道阻值测量",IDC_STATIC,241,1,79,59
+    LTEXT           "电阻(Ω)",IDC_STATIC,73,12,31,8
+    LTEXT           "样品名称",IDC_STATIC,34,12,33,8
+    LTEXT           "通道号",IDC_STATIC,245,14,25,8
+    LTEXT           "通道号",IDC_STATIC,3,12,25,8
+    GROUPBOX        "",IDC_STATIC,234,206,93,23
+    CONTROL         "5",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    76,20,10
+    CONTROL         "1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    24,20,10
+    CONTROL         "7",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    102,20,10
+    CONTROL         "2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    37,20,10
+    CONTROL         "3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    50,20,10
+    CONTROL         "4",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    63,20,10
+    CONTROL         "6",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    89,20,10
+    CONTROL         "9",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    128,20,10
+    CONTROL         "8",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    115,20,10
+    EDITTEXT        IDC_EDIT_N11,27,153,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R11,66,153,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N12,27,166,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R12,66,166,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N13,27,179,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R13,66,179,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N14,27,192,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R14,66,192,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N15,27,205,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R15,66,205,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "10",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    140,20,10
+    CONTROL         "11",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    154,20,10
+    CONTROL         "12",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    167,20,10
+    CONTROL         "13",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    180,20,10
+    CONTROL         "14",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    193,20,10
+    CONTROL         "15",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    206,20,10
+    EDITTEXT        IDC_EDIT_N16,138,23,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R16,177,23,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N17,138,36,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R17,177,36,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N18,138,49,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R18,177,49,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N19,138,62,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R19,177,62,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N20,138,75,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R20,177,75,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N21,138,88,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R21,177,88,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N22,138,101,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R22,177,101,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N23,138,114,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R23,177,114,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N24,138,127,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R24,177,127,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N25,138,140,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R25,177,140,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "电阻(Ω)",IDC_STATIC,186,12,31,8
+    LTEXT           "样品名称",IDC_STATIC,147,12,33,8
+    LTEXT           "通道号",IDC_STATIC,116,12,25,8
+    CONTROL         "16",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,24,20,10
+    CONTROL         "17",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,37,20,10
+    CONTROL         "18",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,50,20,10
+    CONTROL         "19",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,63,20,10
+    CONTROL         "20",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,76,20,10
+    CONTROL         "21",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,88,20,10
+    CONTROL         "22",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,101,20,10
+    CONTROL         "23",IDC_CHECK23,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,115,20,10
+    CONTROL         "24",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,128,20,10
+    EDITTEXT        IDC_EDIT_N26,138,153,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R26,177,153,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N27,138,166,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R27,177,166,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N28,138,179,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R28,177,179,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N29,138,192,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R29,177,192,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_N30,138,205,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_R30,177,205,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "25",IDC_CHECK25,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,141,20,10
+    CONTROL         "26",IDC_CHECK26,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,154,20,10
+    CONTROL         "27",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,167,20,10
+    CONTROL         "28",IDC_CHECK28,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,180,20,10
+    CONTROL         "29",IDC_CHECK29,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,193,20,10
+    CONTROL         "30",IDC_CHECK30,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,207,20,10
+    LTEXT           "电阻(Ω)",IDC_STATIC,245,30,28,8
+    COMBOBOX        IDC_ChanNo,275,13,41,90,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_OEMCONVERT | CBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "测电阻",IDC_Read_F45,287,43,29,14
+    PUSHBUTTON      "顺序测量",IDC_Read_Resis0,244,43,34,14
+    EDITTEXT        IDC_EDIT_PV,279,75,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "温度测量",IDC_STATIC,236,64,84,87
+    PUSHBUTTON      "存盘",IDC_Read_Pt100,245,180,17,14
+    EDITTEXT        IDC_EDIT_Pt100,271,182,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "测温",IDC_Read_Sr253,240,75,26,14
+    EDITTEXT        IDC_EDIT_SV,279,93,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "SV",IDC_STATIC,269,95,9,8
+    LTEXT           "PV",IDC_STATIC,269,78,9,8
+    GROUPBOX        "通道校零选择",IDC_STATIC,235,155,85,44
+    CONTROL         "通道校零",IDC_CHECKZero,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,250,169,54,10
+    EDITTEXT        IDC_EDIT_PV2,280,113,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Pt100-1",IDC_STATIC,256,116,23,8
+    EDITTEXT        IDC_EDIT_PV3,280,134,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Pt100-2",IDC_STATIC,255,137,24,8
+END
+
+IDD_SETTemp DIALOGEX 0, 0, 218, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "升温方式设置"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,153,42,14
+    PUSHBUTTON      "Cancel",IDCANCEL,169,153,42,14
+    GROUPBOX        "第二段参数设置",IDC_STATIC,115,7,96,76
+    LTEXT           "保温时间( 分)",IDC_STATIC,119,51,47,8
+    LTEXT           "最高温度(℃)",IDC_STATIC,119,17,45,8
+    LTEXT           "温度间隔(℃)",IDC_STATIC,120,34,45,8
+    COMBOBOX        IDC_COMBO_MaxTemp2,181,18,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TempStep2,181,34,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TempTime2,181,48,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "第一段参数设置",IDC_STATIC,7,7,93,76
+    LTEXT           "保温时间( 分)",IDC_STATIC,10,51,47,8
+    LTEXT           "中间温度(℃)",IDC_STATIC,10,17,45,8
+    LTEXT           "温度间隔(℃)",IDC_STATIC,11,34,45,8
+    COMBOBOX        IDC_COMBO_MaxTemp1,68,18,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TempStep1,68,34,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "升温速度( ℃/分)",IDC_STATIC,10,66,57,8
+    COMBOBOX        IDC_COMBO_TempRamp1,68,65,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "升温速度( ℃/分)",IDC_STATIC,119,66,57,8
+    COMBOBOX        IDC_COMBO_TempRamp2,181,63,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "升温方式",IDC_STATIC,7,87,70,40
+    CONTROL         "分段匀速升温",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,13,
+                    98,57,10
+    CONTROL         "间隔保温",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,110,
+                    48,10
+    EDITTEXT        IDC_EDIT_RoomTemp,60,128,30,14,ES_AUTOHSCROLL
+    LTEXT           "室温(℃)",IDC_STATIC,25,132,29,8
+    LTEXT           "最低温度(℃)",IDC_STATIC,13,149,45,8,0,0,HIDC_STATIC
+    COMBOBOX        IDC_COMBO_MiniumTemp,61,147,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TempTime0,68,50,30,30,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "保温条件",IDC_STATIC,116,88,76,35
+    CONTROL         "保温时间到测量",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,
+                    122,99,67,10
+    CONTROL         "满足一定温差",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,
+                    122,111,66,10
+    EDITTEXT        IDC_EDIT_TempVias,165,129,30,14,ES_AUTOHSCROLL
+    LTEXT           "温度偏差(℃)",IDC_STATIC,115,132,45,8
+END
+
+IDD_OPTIMIZE DIALOG DISCARDABLE  0, 0, 216, 131
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "拟合对话框"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "拟合",IDOK,53,110,35,14
+    PUSHBUTTON      "取消",IDCANCEL,153,110,30,14
+    LTEXT           "数据点：",IDC_STATIC,9,60,34,8
+    LTEXT           "数据值：",IDC_STATIC,11,80,33,8
+    LTEXT           "拟合点：",IDC_STATIC,9,16,33,8
+    LTEXT           "拟合值：",IDC_STATIC,9,34,34,8
+    EDITTEXT        IDC_EDIT1,46,76,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,91,77,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,46,34,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,136,77,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,178,77,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITTEXT1,46,59,26,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDITTEXT2,91,59,26,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDITTEXT4,135,59,26,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDITTEXT5,178,59,26,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS,71,59,
+                    9,14
+    CONTROL         "Spin2",IDC_SPIN2,"msctls_updown32",UDS_ARROWKEYS,116,59,
+                    9,14
+    CONTROL         "Spin3",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS,160,59,
+                    9,14
+    CONTROL         "Spin4",IDC_SPIN4,"msctls_updown32",UDS_ARROWKEYS,203,59,
+                    9,14
+    CONTROL         "Spin5",IDC_SPIN5,"msctls_updown32",UDS_ARROWKEYS,72,14,
+                    9,14
+    EDITTEXT        IDC_EDIT6,46,14,26,14,ES_AUTOHSCROLL
+END
+
+IDD_SELPRINTDATA DIALOG DISCARDABLE  0, 0, 210, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "打印选择"
+FONT 10, "System"
+BEGIN
+    CONTROL         "打印原始测试数据",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,50,25,105,8
+    CONTROL         "打印温度取整后测试记录",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,50,38,102,8
+    CONTROL         "不打印原始测试数据",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON,50,51,111,14
+    DEFPUSHBUTTON   "OK",IDOK,67,91,50,14,WS_GROUP
+    GROUPBOX        "打印数据选择：",IDC_STATIC,7,7,184,75,WS_GROUP | 
+                    WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Ptcr Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Ptcr\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Ptcr.EXE\0"
+            VALUE "ProductName", "Ptcr 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_COMBINEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_COMSETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+        HORZGUIDE, 3
+        HORZGUIDE, 17
+        HORZGUIDE, 27
+        HORZGUIDE, 36
+        HORZGUIDE, 39
+    END
+
+    IDD_MANUALCMD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 208
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_RTSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_AnyTemToRes, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_SETUSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_SETSINGLEUSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_Name_Resis_Setting, DIALOG
+    BEGIN
+        RIGHTMARGIN, 327
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 237
+        HORZGUIDE, 125
+    END
+
+    IDD_SETTemp, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_OPTIMIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_SELPRINTDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_COMSETTINGS DLGINIT
+BEGIN
+    IDC_SERIALPORTCOMBO, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_SERIALPORTCOMBO, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_SERIALPORTCOMBO, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_SERIALPORTCOMBO, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_BAUDRATECOMBO, 0x403, 6, 0
+0x3931, 0x3032, 0x0030, 
+    IDC_BAUDRATECOMBO, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_BAUDRATECOMBO, 0x403, 5, 0
+0x3834, 0x3030, "\000" 
+    IDC_BAUDRATECOMBO, 0x403, 5, 0
+0x3432, 0x3030, "\000" 
+    IDC_BAUDRATECOMBO, 0x403, 5, 0
+0x3231, 0x3030, "\000" 
+    IDC_BAUDRATECOMBO, 0x403, 4, 0
+0x3036, 0x0030, 
+    IDC_BAUDRATECOMBO, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_PARITYCOMBO, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_PARITYCOMBO, 0x403, 4, 0
+0x644f, 0x0064, 
+    IDC_PARITYCOMBO, 0x403, 5, 0
+0x7645, 0x6e65, "\000" 
+    IDC_PARITYCOMBO, 0x403, 5, 0
+0x614d, 0x6b72, "\000" 
+    IDC_PARITYCOMBO, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_DATABITSCOMBO, 0x403, 2, 0
+0x0038, 
+    IDC_DATABITSCOMBO, 0x403, 2, 0
+0x0037, 
+    IDC_DATABITSCOMBO, 0x403, 2, 0
+0x0036, 
+    IDC_STOPBITSCOMBO, 0x403, 2, 0
+0x0031, 
+    IDC_STOPBITSCOMBO, 0x403, 4, 0
+0x2e31, 0x0035, 
+    IDC_STOPBITSCOMBO, 0x403, 2, 0
+0x0032, 
+    IDC_SENDBUFFERCOMBO, 0x403, 3, 0
+0x3436, "\000" 
+    IDC_SENDBUFFERCOMBO, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_SENDBUFFERCOMBO, 0x403, 4, 0
+0x3532, 0x0035, 
+    IDC_SENDBUFFERCOMBO, 0x403, 4, 0
+0x3135, 0x0032, 
+    IDC_SENDBUFFERCOMBO, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_SENDBUFFERCOMBO, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_SENDBUFFERCOMBO, 0x403, 5, 0
+0x3034, 0x3639, "\000" 
+    IDC_MultiMeter, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    IDC_MultiMeter, 0x403, 8, 0
+0x4c46, 0x4b55, 0x3445, 0x0035, 
+    IDC_MultiMeter, 0x403, 7, 0
+0x6854, 0x3532, 0x3231, "\000" 
+    IDC_MultiMeter, 0x403, 8, 0
+0x7445, 0x3133, 0x3633, 0x0041, 
+    IDC_MultiMeter, 0x403, 7, 0
+0x3433, 0x3034, 0x4131, "\000" 
+    IDC_MultiMeter, 0x403, 12, 0
+0x654b, 0x6874, 0x656c, 0x3279, 0x3030, 0x0030, 
+    IDC_MultiMeter, 0x403, 6, 0
+0x744f, 0x6568, 0x0072, 
+    IDC_DigitConctollor, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    IDC_DigitConctollor, 0x403, 6, 0
+0x5253, 0x3532, 0x0033, 
+    IDC_DigitConctollor, 0x403, 5, 0
+0x5253, 0x3338, "\000" 
+    IDC_DigitConctollor, 0x403, 5, 0
+0x5253, 0x3339, "\000" 
+    IDC_DigitConctollor, 0x403, 5, 0
+0x524d, 0x3331, "\000" 
+    IDC_DigitConctollor, 0x403, 5, 0
+0xd9b0, 0xd8cc, "\000" 
+    IDC_DigitConctollor, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    0
+END
+
+IDD_RTSET DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x342d, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x332d, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x322d, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x312d, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x3030, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x312b, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x322b, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x332b, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x2e31, 0x4530, 0x342b, "\000" 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3231, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3431, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3831, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3232, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3432, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3632, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3832, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3533, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3633, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3034, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3234, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3534, 0x0030, 
+    IDC_COMBO2_MAXTEMP, 0x403, 4, 0
+0x3834, 0x0030, 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x342b, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x352b, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x362b, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x372b, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x382b, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x392b, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x3031, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x3131, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x3231, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 7, 0
+0x2e31, 0x4530, 0x3331, "\000" 
+    IDC_COMBO_MAXRES, 0x403, 1, 0
+"\000" 
+    IDC_COMBO_MAXRES, 0x403, 1, 0
+"\000" 
+    IDC_COMBO_MINTEMP, 0x403, 4, 0
+0x342d, 0x0030, 
+    IDC_COMBO_MINTEMP, 0x403, 4, 0
+0x332d, 0x0030, 
+    IDC_COMBO_MINTEMP, 0x403, 4, 0
+0x322d, 0x0030, 
+    IDC_COMBO_MINTEMP, 0x403, 4, 0
+0x312d, 0x0030, 
+    IDC_COMBO_MINTEMP, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_MINTEMP, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_MINTEMP, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_MINTEMP, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_Name_Resis_Setting DLGINIT
+BEGIN
+    IDC_ChanNo, 0x403, 2, 0
+0x0031, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0032, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0033, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0034, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0035, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0036, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0037, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0038, 
+    IDC_ChanNo, 0x403, 2, 0
+0x0039, 
+    IDC_ChanNo, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3632, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3732, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3832, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3932, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3133, "\000" 
+    IDC_ChanNo, 0x403, 3, 0
+0x3233, "\000" 
+    0
+END
+
+IDD_SETTemp DLGINIT
+BEGIN
+    IDC_COMBO_MaxTemp2, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_MaxTemp2, 0x403, 3, 0
+0x3036, "\000" 
+    IDC_COMBO_MaxTemp2, 0x403, 3, 0
+0x3037, "\000" 
+    IDC_COMBO_MaxTemp2, 0x403, 3, 0
+0x3038, "\000" 
+    IDC_COMBO_MaxTemp2, 0x403, 3, 0
+0x3039, "\000" 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3131, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3231, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3331, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3431, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3731, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3831, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3931, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3132, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3232, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3332, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3432, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3632, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3732, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3832, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3932, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3133, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3233, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3333, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3433, 0x0030, 
+    IDC_COMBO_MaxTemp2, 0x403, 4, 0
+0x3533, 0x0030, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_TempStep2, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_TempStep2, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_TempTime2, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_TempTime2, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO_TempTime2, 0x403, 4, 0
+0x3533, 0x0030, 
+    IDC_COMBO_TempTime2, 0x403, 4, 0
+0x3034, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_MaxTemp1, 0x403, 3, 0
+0x3036, "\000" 
+    IDC_COMBO_MaxTemp1, 0x403, 3, 0
+0x3037, "\000" 
+    IDC_COMBO_MaxTemp1, 0x403, 3, 0
+0x3038, "\000" 
+    IDC_COMBO_MaxTemp1, 0x403, 3, 0
+0x3039, "\000" 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3131, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3231, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3331, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3431, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3731, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3831, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3931, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3132, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3232, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3332, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3432, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3632, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3732, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3832, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3932, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3133, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3233, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3333, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3433, 0x0030, 
+    IDC_COMBO_MaxTemp1, 0x403, 4, 0
+0x3533, 0x0030, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_TempStep1, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_TempStep1, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0031, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0032, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0033, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0034, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0035, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0036, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0037, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0038, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e30, 0x0039, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e31, 0x0030, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e31, 0x0032, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e31, 0x0034, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e31, 0x0036, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e31, 0x0038, 
+    IDC_COMBO_TempRamp1, 0x403, 4, 0
+0x2e32, 0x0030, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0031, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0032, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0033, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0034, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0035, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0036, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0037, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0038, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e30, 0x0039, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e31, 0x0030, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e31, 0x0032, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e31, 0x0034, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e31, 0x0036, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e31, 0x0038, 
+    IDC_COMBO_TempRamp2, 0x403, 4, 0
+0x2e32, 0x0030, 
+    IDC_COMBO_MiniumTemp, 0x403, 5, 0
+0xd2ca, 0xc2ce, "\000" 
+    IDC_COMBO_MiniumTemp, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_MiniumTemp, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_MiniumTemp, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_MiniumTemp, 0x403, 4, 0
+0x312d, 0x0030, 
+    IDC_COMBO_MiniumTemp, 0x403, 4, 0
+0x322d, 0x0030, 
+    IDC_COMBO_MiniumTemp, 0x403, 4, 0
+0x332d, 0x0030, 
+    IDC_COMBO_MiniumTemp, 0x403, 4, 0
+0x342d, 0x0030, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_TempTime0, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_TempTime0, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO_TempTime0, 0x403, 4, 0
+0x3533, 0x0030, 
+    IDC_COMBO_TempTime0, 0x403, 4, 0
+0x3034, 0x0030, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "阻温特性\n热敏电阻参数处理\n\n数据文件(*.RT)\n.RT\nPtcr.Document\nPtcr Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Ptcr"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_INDICATOR_TIME       "hh:mm:ss"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+    ID_INDICATOR_PV         "测量温度:"
+    ID_INDICATOR_SV         "设定温度:"
+    ID_INDICATOR_PT100      "PT100温度:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SERIALPORT_F45SETTINGS "万用表参数设置"
+    ID_MANUAL_CMD           "手工 发送命令，检查万用表状态"
+    ID_SERIALPORT_SETTINGS  "温控表通讯参数设置"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SR253_CMD            "手工 发送命令，检查温控表状态"
+    ID_CHAN                 "通道设置、室温电阻测量"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SENDCMD         "发送参数"
+    ID_INDICATOR_DATE       "Datemm/dd/yyyy"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_Pensonanl            "个性化曲线"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Ptcr.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

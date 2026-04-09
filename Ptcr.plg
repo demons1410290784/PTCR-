@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ptcr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\13573\AppData\Local\Temp\RSPA761.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/Ptcr.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /Zm500 /c 
+"C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp"
+]
+Creating command line "cl.exe @C:\Users\13573\AppData\Local\Temp\RSPA761.tmp" 
+Creating temporary file "C:\Users\13573\AppData\Local\Temp\RSPA762.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Ptcr.pdb" /machine:I386 /out:"Release/Ptcr.exe" 
+".\Release\CombinDlg.obj"
+".\Release\Comcfg.obj"
+".\Release\DataOptize.obj"
+".\Release\Draw.obj"
+".\Release\font.obj"
+".\Release\GetAnyResOfTem.obj"
+".\Release\gridctrl.obj"
+".\Release\Login.obj"
+".\Release\MainFrm.obj"
+".\Release\ManCmd1.obj"
+".\Release\NameResi.obj"
+".\Release\picture.obj"
+".\Release\Ptcr.obj"
+".\Release\PtcrDoc.obj"
+".\Release\PtcrView.obj"
+".\Release\RT.obj"
+".\Release\RTSave.obj"
+".\Release\SelPrintData.obj"
+".\Release\SelRTRange.obj"
+".\Release\SerialPort.obj"
+".\Release\SetSingleUser.obj"
+".\Release\SetTemp.obj"
+".\Release\SETUSER.obj"
+".\Release\StdAfx.obj"
+".\Release\Ptcr.res"
+".\WinIo.lib"
+]
+Creating command line "link.exe @C:\Users\13573\AppData\Local\Temp\RSPA762.tmp"
+<h3>Output Window</h3>
+Compiling...
+PtcrDoc.cpp
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1721) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1775) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1776) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1855) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1856) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1873) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1874) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1900) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1901) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1911) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1912) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1936) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(1937) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2058) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2066) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2069) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2072) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2166) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2170) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2174) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2146) : warning C4101: 'results' : unreferenced local variable
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2307) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2397) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2404) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2533) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2540) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2543) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2580) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\13573\Desktop\毕业论文\新课题\设备1\阻温测试程序整理\ptcr阻温系统程序v2.8(excel参数微调，并取消提示、修改路径) - 副本\PtcrDoc.cpp(2582) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Linking...
+Creating temporary file "C:\Users\13573\AppData\Local\Temp\RSPA84E.tmp" with contents
+[
+/nologo /o"Release/Ptcr.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\CombinDlg.sbr"
+".\Release\Comcfg.sbr"
+".\Release\DataOptize.sbr"
+".\Release\Draw.sbr"
+".\Release\font.sbr"
+".\Release\GetAnyResOfTem.sbr"
+".\Release\gridctrl.sbr"
+".\Release\Login.sbr"
+".\Release\MainFrm.sbr"
+".\Release\ManCmd1.sbr"
+".\Release\NameResi.sbr"
+".\Release\picture.sbr"
+".\Release\Ptcr.sbr"
+".\Release\PtcrDoc.sbr"
+".\Release\PtcrView.sbr"
+".\Release\RT.sbr"
+".\Release\RTSave.sbr"
+".\Release\SelPrintData.sbr"
+".\Release\SelRTRange.sbr"
+".\Release\SerialPort.sbr"
+".\Release\SetSingleUser.sbr"
+".\Release\SetTemp.sbr"
+".\Release\SETUSER.sbr"]
+Creating command line "bscmake.exe @C:\Users\13573\AppData\Local\Temp\RSPA84E.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Ptcr.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
